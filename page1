@@ -1,0 +1,21 @@
+ Methodology
+Phenomena of Interest
+Describe the physical phenomena of interest, e.g. physical principles, static and dynamic behavior, and signal characteristics
+Sensor(s) Used
+Describe the sensor(s) you used, e.g. physical principles, static and dynamic behavior, and signal characteristics
+
+Phenomena of Interest
+Acceleration
+With the accelerometer, we are measuring acceleration, or change in velocity of an object. Acceleration, in physics, is a vector quality and has a direction and magnitude as a result. Change in either the direction or magnitude will result in positive or negative acceleration. 
+Acceleration is found mainly as gravity or the result of a net force. Acceleration from gravity is a (fairly- since gravity technically varies at different times and places) static physical property that all items exhibit when there isn’t a normal force to neutralize the Earth;s gravitational pull. Static acceleration as gravity can be used to measure if an object of interest is stationary but tilting. Dynamic acceleration is observed when a net force is applied to an object, causing time-varying change in direction or velocity, such as in the case of the object in motion or experiencing vibrations.
+Acceleration is measured in g or G, which is equal to about 32.2 feet per second2. The g provides a measure of stress that a body would experience if it was accelerated at so many times the Earth’s gravitational pull. To give a frame of reference, the average playground swing can produce about 2g, or two times the earth’s gravitational force at the bottom of the swing path. In our scenario, closing a door leisurely or even slamming it would produce around the same amount of g at the edge of the door where the moment arm (from the door hinge as the pivot point) is the greatest, and so are the forces acting on the door. 
+
+Sensors Used
+Accelerometer
+Mechanics of Function
+The accelerometer (ADXL 335) used has small capacitive plates within the chip, creating a differential capacitor. Differential capacitance is described mathematically as follows:
+Insert Diff Cap equation-
+Capacitors are traditionally made with two conductive plates separated by a dielectric (in this case, this is air, as shown in Figure # below). Capacitance is the use of these plates to store charge, and is measured in Farads. The surface charge as described in Equation (___) is often referred to as Q, and is directly related to the voltage, or potential difference (measured in volts) across the plates. If voltage is increased, the charge stored between the plates, measured in Coulombs,also increases. 
+
+
+Figure #: Diagram of a capacitor that can store positive and negative charges with respect to the source voltage
